@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Event Registration</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    
+    <h1>Student Login</h1>
+     <form id="signupForm">
+        <label for="regemail">Email</label><br>
+        <input type ="text" id="regemail" placeholder="Enter Email"><br>
+        <label for="username">UserName</label><br>
+        <input type="text" id="username" placeholder="UserName"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password"placeholder="Enter Password"><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    <p id="error"></p>
+    <p id="success"></p>
+    <br><br>
+    <h1>Upcoming Events</h1>
+     <p><h2>Here are some upcoming events for students:</h2></p>
+     <p><h2>Pottery Workshop</h2>
+         Learn the art of pottery and create your own unique pieces.<br><br>
+         Date: 2026-10-08 
+        Venue: Art Center
+        Schedule: 10:00 AM - 12:00 PM
+    </p>
+    <h2>Archery Competition</h2>
+    <p>
+        Test your archery skills in this exciting competition.<br><br>
+        Date: 2026-10-09
+        Venue: KLE Sports Complex
+        Schedule: 2:00 PM - 4:00 PM
+    </p>
+    
+    <p><h2>Running Marathon</h2>
+        Join the annual running marathon and challenge yourself.<br><br>
+        Date: 2026-10-10
+        Venue: Prabhakar Kore City Park
+        Schedule: 7:00 AM - 12:00 PM
+    </p><br><br>
+    <h1>Event Registration</h1>
+    <form id="eventRegistrationForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter Name"><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter Email"><br>
+        <label for="usn">USN</label>
+        <input type="text" id="usn" placeholder="Enter USN"><br>
+        <label for="event">Event</label>
+        <select id="event">
+            <option value="event1">Pottery Workshop</option>
+            <option value="event2">Archery Competition</option>
+            <option value="event3">Running Marathon</option>
+        </select><br>
+        <label for="date">Date</label>
+        <input type="date" id="date"><br>
+        <label for="dept">Department</label>
+        <select id="dept">
+            <option value="cse">Computer Science and Engineering</option>
+            <option value="ise">Information Science and Engineering</option>
+            <option value="ece">Electronics and Communication Engineering</option>
+            <option value="mech">Mechanical Engineering</option>
+            <option value="civil">Civil Engineering</option>
+        </select><br>
+        <button type="submit">Register</button>
+    </form>
+    <script src="event.js"></script>
+</body>
+</html>

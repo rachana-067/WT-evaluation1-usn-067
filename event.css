@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size : 16px;
+    color :rgb(6, 1, 10);
+    text-align: center;
+    border: 2px solid black;
+}
+#register{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 0 auto;
+    color:green;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(206, 151, 250);
+    color: white;
+}
+
+
